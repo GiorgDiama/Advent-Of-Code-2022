@@ -43,6 +43,7 @@ def second():
     # add scenic score dimension
     data = [[[int(x), -1] for x in r] for r in data]
 
+    # for each tree - compute the 2d views and use them to calculate scenic score 
     for i, row in enumerate(data):
         for j, tree in enumerate(row):
             row, col = data[i], [x[j] for x in data]
