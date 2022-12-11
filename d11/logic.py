@@ -35,7 +35,6 @@ def first():
     input = ''.join(open('input.txt')).split("\n\n")
     monkies = [Monkey(x.split('\n')) for x in input]
 
-    for m in data:
-        monkies.append(Monkey(m))
+    
         
 first()
