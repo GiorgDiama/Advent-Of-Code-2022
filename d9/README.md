@@ -1,0 +1,1 @@
+For visualization run with -v *borader_size* (optional, default = 15)
