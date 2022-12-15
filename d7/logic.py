@@ -67,7 +67,7 @@ def build_tree():
                 path.append(dir_name)
         if line[0].isnumeric():
             t.add_node('.'.join(path), Node(line[1], type='f', size=int(line[0]))) 
-    
+        
     return t
 
 def first(): 

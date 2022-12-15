@@ -1,0 +1,1 @@
+**small bug:* Solution of part two does not print the first column (something todo with indexing - cannot be bothered to fix atm)
